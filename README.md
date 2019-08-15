@@ -6,8 +6,12 @@ Depending on your host OS, run gradlew or gradlew.bat to download the Gradle dis
 
 ## Deployment
 ### Using bootRun task
+```
 ./gradlew bootRun
+```
 
 ### Building and running the jar
+```
 ./gradlew clean build jar
 java -jar build/libs/springboot-VERSION.jar
+```
