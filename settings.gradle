@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://mvnrepository.com/artifact'
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'springboot'
+
